@@ -33,7 +33,7 @@ import org.springframework.core.env.StandardEnvironment;
  */
 public enum CloudPlatform {
 	
-	private CloudPlatform(){ }
+	CloudPlatform(){ }
 
 	/**
 	 * No Cloud platform. Useful when false-positives are detected.
